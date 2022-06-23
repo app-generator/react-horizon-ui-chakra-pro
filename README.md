@@ -1,107 +1,151 @@
-# [Horizon UI PRO](https://horizon-ui.com/chakra-pro) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://horizon-ui.com/pro&text=Check%20Horizon%20UI%20PRO,%20the%20trendiest%20Premium%20admin%20template%20for%20Chakra%20UI!)
+# React Horizon UI PRO ⚡️
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![license](https://img.shields.io/badge/license-MIT-blue.svg)
-[![GitHub issues open](https://img.shields.io/github/issues/horizon-ui/horizon-ui-chakra.svg?maxAge=2592000)](https://github.com/horizon-ui/horizon-ui-chakra/issues?q=is%3Aopen+is%3Aissue)
-[![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/horizon-ui/horizon-ui-chakra.svg?maxAge=2592000)](https://github.com/horizon-ui/horizon-ui-chakra/issues?q=is%3Aissue+is%3Aclosed)
+Designed for those who like modern UI elements and beautiful websites, Horizon UI is ready to help you create stunning websites and webapps.
+This premium design powered by `Chakra UI` comes with many examples for pages like NFTs Pages, Authentication Pages, Profile and so on. 
+The product comes with a simple JWT authentication flow: `login`/`register`/`logout` powered by an open-source **Node JS API** Backend via `Passport` Library.
 
-Get started and build your dream web app with Horizon UI PRO, the most trendiest &
-innovative Premium Admin Template for Chakra UI & React!
+<br />
 
----
+> 🚀 Features: 
 
-### Introduction
+- ✅ Modern aesthetics UI design - Designed by *[Simmmple](https://simmmple.com/)*
+- ✅ Styled with `Chakra Ui`, `Dark-Mode`
+- ✅ Authentication: JWT Login/Register/Logout
+- ✅ **Full-stack Ready** using a **Node JS API Server** (open-source project) - Server Features
+  - `Typescript` / SQLite Persistence / TypeORM / Joy (validation)
+  - Passport library - `passport-jwt` strategy.
 
-Designed for those who like modern UI elements and beautiful websites. Made of
-hundred of elements, designed blocks and fully coded pages, Horizon UI is ready
-to help you create stunning websites and webapps.
+> Links
 
-Save hundreds of hours trying to create and develop a dashboard from scratch.
-The fastest, most responsive & trendiest dashboard is here. Seriously.
+- 👉 [React Horizon UI PRO](https://appseed.us/product/horizon-ui-pro/full-stack/) - product page
+- 👉 [React Horizon UI PRO](https://react-horizon-ui-chakra-pro.appseed-srv1.com/#/auth/sign-in/default) - LIVE Demo
+- 👉 Free Support via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
-With Horizon UI PRO you will find many examples for pages like NFTs Pages,
-Authentication Pages, Profile and so on. Just choose between a Basic Design or a
-cover and you are good to go!
+<br />
 
-<p>&nbsp;</p>
+![React Horizon UI PRO - Full-Stack starter provided by AppSeed and Simmmple.](https://user-images.githubusercontent.com/51070104/175255148-7475cb47-0f63-48ee-a39d-7620beca6783.png)
 
-[<img alt="Horizon UI PRO" src="https://i.ibb.co/R6jFKRM/introduction-image-1.png" /> ](https://github.com/horizon-ui/horizon-ui-chakra)
+<br >
 
-<p>&nbsp;</p>
+> **Note**: This product can be used with other API Servers for a complete full-stack experience. **ALL API servers use a unified interface**
 
-### Documentation
+- [Django API Server](https://github.com/app-generator/api-server-django) - open-source product
+- [Flask API Server](https://github.com/app-generator/api-server-flask) - open-source product
+- [Node JS API Server](https://github.com/app-generator/api-server-nodejs) - open-source product / Typescript / SQLite / TypeORM / Joy for validation
 
-Each element is well presented in a very complex documentation. You can read
-more about the
-<a href="https://horizon-ui.com/docs?ref=readme-horizon" target="_blank">documentation
-here.</a>
+<br />
 
-### Quick Start
+## How to use it
 
-Install Horizon UI by running either of the following:
+To use the product Node JS 14.x or higher is required.
 
-- Open Horizon UI PRO .zip file
-
-- Install NodeJS LTS from
-  [NodeJs Official Page](https://nodejs.org/en/?ref=horizon-documentation)
-  (NOTE: Product only works with LTS version)
-
-Run in terminal this command:
+**Step 1** - Download the sources from the official [product page](https://appseed.us/product/horizon-ui-pro/full-stack/) (requires a `purchase`)
 
 ```bash
-npm install
+$ unzip react-horizon-ui-chakra-pro.zip
+$ cd react-horizon-ui-chakra-pro
 ```
 
-Then run this command to start your local server
+<br >
+
+**Step 2** - Install dependencies via NPM or yarn
 
 ```bash
-npm start
+$ npm i
+// OR
+$ yarn
 ```
 
-### Example Pages
+<br />
 
-If you want to get inspiration or just show something directly to your clients,
-you can jump start your development with our pre-built example pages. You will
-be able to quickly set up the basic structure for your web project. View
-<a href="https://live.horizon-ui.com/free?ref=readme-horizon" target="_blank">example
-pages here.</a>
+**Step 3** - Start in development mode
 
-### Versions
+```bash
+$ npm run start 
+// OR
+$ yarn start
+```
 
-| Free Version                                                                                                       | PRO Version                                                                                                               |
-| ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-| [![Horizon UI](https://i.ibb.co/fdyTwz1/introduction-image-2.png)](https://www.horizon-ui.com/?ref=readme-horizon) | [![Horizon UI PRO](https://i.ibb.co/R6jFKRM/introduction-image-1.png)](https://www.horizon-ui.com/pro?ref=readme-horizon) |
+<br />
 
-### Figma Version
+## Configure the backend server
 
-Horizon UI is available in Figma format as well! Check it out on Figma
-Community! 🎨
-[See the Horizon UI Figma design files](https://horizon-ui.com/figma/)
+The product comes with a usable JWT Authentication flow that provides only the basic requests: login/logout/register. 
 
-### Reporting Issues
+**API Server URL** - `src/config/constant.js` 
 
-We use GitHub Issues as the official bug tracker for the Horizon UI. Here are
-some advices for our users that want to report an issue:
+```javascript
+const config = {
+    ...
+    API_SERVER: 'http://localhost:5000/api/'  // <-- The magic line
+};
+```
 
-1. Make sure that you are using the latest version of the Horizon UI Dashbaord.
-   Check the CHANGELOG from your dashboard on our
-   [CHANGE LOG File](https://github.com/horizon-ui/horizon-ui-chakra/blob/main/CHANGELOG.md?ref=readme-horizon).
-2. Providing us reproducible steps for the issue will shorten the time it takes
-   for it to be fixed.
-3. Some issues may be browser specific, so specifying in what browser you
-   encountered the issue might help.
+<br />
+
+**API Server Descriptor** - POSTMAN Collection
+
+The API Server signature is provided by the [Unified API Definition](https://docs.appseed.us/boilerplate-code/api-unified-definition)
+
+- [API POSTMAN Collection](https://github.com/app-generator/api-server-unified/blob/main/api.postman_collection.json) - can be used to mock (simulate) the backend server or code a new one in your preferred framework. 
+
+<br />
+
+## Node JS API Server
+
+The product is also open-source and is already configured to work with Berry Dashboard Template - product features:
+
+- Typescript / `NodeJS` / `Express` Server
+- JWT authentication (`passport-jwt` strategy)
+- Persistence: `SQLite` / `TypeORM`
+
+> Links
+
+- [Node JS API](https://github.com/app-generator/api-server-nodejs) - source code
+- [Node JS API](https://appseed.us/boilerplate-code/nodejs-starter) - product page
+
+<br />
+
+![Node JS API - Open-source API server built on top of Express Nodejs Framework.](https://user-images.githubusercontent.com/51070104/124934824-c210a700-e00d-11eb-9d01-e05bd8bfb608.png)
+
+<br />
+
+### Compile the API Server
+
+**Step 1** - Clone the project
+
+```bash
+$ git clone https://github.com/app-generator/api-server-nodejs.git
+$ cd api-server-nodejs
+```
+
+**Step #2** - Install dependencies via NPM or Yarn
+
+```bash
+$ npm i
+// OR
+$ yarn
+```
+
+**Step 3** - Run the SQLite migration via TypeORM
+
+```
+$ npm run typeorm migration:run
+// OR 
+$ yarn typeorm migration:run
+```
+
+**Step 4** - Start the API server (development mode)
+
+```bash
+$ npm run dev
+// OR
+$ yarn dev
+```
+
+The API server will start using the `PORT` specified in `.env` file (default 5000).
+
+<br /> 
 
 ---
-
-### Community
-
-Connect with the community! Feel free to ask questions, report issues, and meet
-new people that already use Horizon UI!
-
-💬 [Join the #HorizonUI Discord Community!](https://discord.gg/f6tEKFBd4m)
-
-### Copyright and license
-
-⭐️ [Copyright 2022 Simmmple ](https://www.simmmple.com/?ref=readme-horizon)
-
-📄 [Horizon UI License](https://www.horizon-ui.com/license?ref=readme-horizon)
+[React Horizon UI PRO](https://appseed.us/product/horizon-ui-pro/full-stack/) - Provided by Simmmple and **AppSeed [App Generator](https://appseed.us/generator)**.

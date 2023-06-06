@@ -1,7 +1,18 @@
 # Changelog
 
+## [2.0.0] 2023-06-06
+### Changes
+
+- Added `JWT Authentication`
+  - Tested with [Node JS API](https://github.com/app-generator/api-server-nodejs) (free version)
+
+## [2.0.0-RAW] 2023-05-25
+### Changes
+
+- Import RAW UI Version
+
 ## [1.0.3-enh1] 2022-06-17
-### Improvements
+### Changes
 
 - Added `JWT Authentication`
   - Tested with [Node JS API](https://github.com/app-generator/api-server-nodejs) (free version)

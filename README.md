@@ -1,4 +1,4 @@
-# React Horizon UI PRO ⚡️
+# [React Horizon PRO](https://appseed.us/product/horizon-ui-pro/full-stack/) `Full-Stack`
 
 Designed for those who like modern UI elements and beautiful websites, Horizon UI is ready to help you create stunning websites and webapps.
 This premium design powered by `Chakra UI` comes with many examples for pages like NFTs Pages, Authentication Pages, Profile and so on. 

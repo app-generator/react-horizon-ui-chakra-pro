@@ -34,7 +34,7 @@ The product comes with a simple JWT authentication flow: `login`/`register`/`log
 
 To use the product Node JS 14.x or higher is required.
 
-**Step 1** - Download the sources from the official [product page](https://appseed.us/product/horizon-ui-pro/full-stack/) (requires a `purchase`)
+> **Step 1** - Download the sources from the official [product page](https://appseed.us/product/horizon-ui-pro/full-stack/) (requires a `purchase`)
 
 ```bash
 $ unzip react-horizon-ui-chakra-pro.zip
@@ -43,7 +43,7 @@ $ cd react-horizon-ui-chakra-pro
 
 <br >
 
-**Step 2** - Install dependencies via NPM or yarn
+> **Step 2** - Install dependencies via NPM or yarn
 
 ```bash
 $ npm i
@@ -53,7 +53,7 @@ $ yarn
 
 <br />
 
-**Step 3** - Start in development mode
+> **Step 3** - Start in development mode
 
 ```bash
 $ npm run start 

@@ -4,6 +4,9 @@ Designed for those who like modern UI elements and beautiful websites, Horizon U
 This premium design powered by `Chakra UI` comes with many examples for pages like NFTs Pages, Authentication Pages, Profile and so on. 
 The product comes with a simple JWT authentication flow: `login`/`register`/`logout` powered by an open-source **Node JS API** Backend via `Passport` Library.
 
+- 👉 [React Horizon UI PRO](https://appseed.us/product/horizon-ui-pro/full-stack/) - `Product Page`
+- 👉 [React Horizon UI PRO](https://react-horizon-pro.onrender.com/) - `LIVE Demo`
+
 <br />
 
 > 🚀 Features: 
@@ -14,14 +17,6 @@ The product comes with a simple JWT authentication flow: `login`/`register`/`log
 - ✅ **Full-stack Ready** using a **Node JS API Server** (open-source project) - Server Features
   - `Typescript` / SQLite Persistence / TypeORM / Joy (validation)
   - Passport library - `passport-jwt` strategy.
-
-> Links
-
-- 👉 [React Horizon UI PRO](https://appseed.us/product/horizon-ui-pro/full-stack/) - product page
-- 👉 [React Horizon UI PRO](https://react-horizon-ui-chakra-pro.appseed-srv1.com/#/auth/sign-in/default) - LIVE Demo
-- 👉 Free Support via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup).
-
-<br />
 
 ![React Horizon UI PRO - Full-Stack starter provided by AppSeed and Simmmple.](https://user-images.githubusercontent.com/51070104/175255148-7475cb47-0f63-48ee-a39d-7620beca6783.png)
 
